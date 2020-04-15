@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Banking</title>
+    <link rel="stylesheet" href="Bootstrap&JQuery Files\bootstrap.min.css" />
+    <script src="Bootstrap&JQuery Files\jquery.js"></script>
+    <script src="Bootstrap&JQuery Files\popper.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="Bootstrap&JQuery Files\bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div class="container-fluid bg-danger p-0 mb-1" >
+        <img src="Images/header.PNG" style="max-height: 15vh;width: 100%">
+    </div>
+    
+    <div class="container-fluid row ml-0 p-0">
+        <div class="col-2 p-0">
+            <div class="p-0 w-100">
+                <img src="Images/account_holder_img.PNG" style="width: 100%;">
+                
+                <div class="list-group my-2">
+                    <a href="#" class="list-group-item list-group-item-action active">
+                      Cras justo odio
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                    <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                    <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                    <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+                </div>
+                
+                <div class="list-group my-2">
+                    <a href="#" class="list-group-item list-group-item-action active">
+                      Cras justo odio
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                    <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                    <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                    <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-10 p-1">
+            <!-- Personal Details -->
+            <div class="container-fluid p-2 mb-2">
+                <h4 class="mb-4">Welcome Mr.Dkb</h4>
+                
+                <p class="mb-0">Account No: 1234567890</p>
+                <p class="mt-0">IFSC Code: 87989sad0ad0a0d0a</p>
+                
+            </div>
+            
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                    aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                    aria-selected="false">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" id="contact-tab" data-toggle="tab" href="#funds_transfer" role="tab" aria-controls="contact"
+                    aria-selected="false">Funds Transger</a>
+                </li>
+            </ul>
+            
+            <div class="tab-content p-1" id="myTabContent">
+                <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <h3>Home Page</h3>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <h3>Profile Page</h3>
+                </div>
+                
+                <!-- Fund Transfer Content -->
+                <div class=" tab-pane fade show active p-2" id="funds_transfer" role="tabpanel" aria-labelledby="contact-tab">
+                    
+                    <h2>Funds Transfer</h2>
+                    <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores ad eveniet deserunt est modi quis nostrum ullam veritatis maxime, dignissimos optio magni amet fugiat voluptas ex, cumque quae error at.</p>
+                    
+                    
+                    <div class="container-fluid bg-info h4 text-center p-1">Transfer Funds</div>
+                    
+                    <div class="container-fluid p-0">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                  <th scope="row">Reciever's Bank Bank Name : </th>
+                                  <td><input class="form-control w-100" type="text"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Reciever's Name     : </th>
+                                    <td><input class="form-control w-100" type="text"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Reciever's Bank Account No: </th>
+                                    <td><input class="form-control w-100" type="number"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">SWIFT Routing No : </th>
+                                    <td><input class="form-control w-100" type="number"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sender's Bank Account No: </th>
+                                    <td><input class="form-control w-100" type="number" value="1234567890" disabled></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>
+    </div>
+    
+    <!--Footer -->
+    <div class="container-fluid bg-danger p-0 mt-1" >
+        <img src="Images/header.PNG" style="max-height: 15vh;width: 100%">
+    </div>
+</body>
+</html>
